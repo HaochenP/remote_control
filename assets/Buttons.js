@@ -6,7 +6,7 @@ import { StyleSheet, Text, View, Button} from 'react-native';
 
 
 export default Buttons = (props) => {
-  const ipAddress = 'https://cc59-109-149-104-156.eu.ngrok.io'
+  const ipAddress = props.ipAddress;
   
   /*
   var socket = io.connect(ipAddress);
